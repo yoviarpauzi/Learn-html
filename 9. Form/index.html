@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar HTMl</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="username">Username : </label>
+                    </td>
+                    <td>
+                        <input type="username" id="username"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password : </label>
+                    </td>
+                    <td>
+                        <input type="password" id="password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tanggal-lahir">Tanggal lahir</label>
+                    </td>
+                    <td>
+                        <input type="date" id="tanggal-lahir">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" id="pria" name="jenis-kelamin">
+                        <label for="pria">Pria</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="wanita" name="jenis-kelamin">
+                        <label for="wanita">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Hobi</td>
+                    <td>
+                        <input type="checkbox" id="memasak" name="hobi">
+                        <label for="memasak">Memasak</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="menyanyi" name="hobi">
+                        <label for="menyanyi">Menyanyi</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="olah-raga" name="hobi">
+                        <label for="olah-raga">Olah raga</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="asal-daerah">Asal Daerah</label>
+                    </td>
+                    <td>
+                        <select id="asal-daerah">
+                            <option>Jawa Barat</option>
+                            <option>Jakarta</option>
+                            <option>Jawa Tengah</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Komentar
+                    </td>
+                    <td>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
